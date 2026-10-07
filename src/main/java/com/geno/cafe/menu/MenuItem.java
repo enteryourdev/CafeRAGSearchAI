@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
-@Table(nam = "menu_items")
+@Table(name = "menu_items")
 public class MenuItem{
 
     @Id
@@ -13,7 +13,7 @@ public class MenuItem{
     private String name;
 
     @Column(length = 1000)
-    private String descirption;
+    private String description;
     private String category;
     private BigDecimal price;
 

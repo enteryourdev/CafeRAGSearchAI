@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.geno.cafe.CafeApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-07T20:12:18.012Z" hostname="Genos-MacBook-Air.local" time="2.486">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.geno.cafe.CafeApplicationTests" time="0.321"/>
+  <system-out><![CDATA[16:12:18.093 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.geno.cafe.CafeApplicationTests]: CafeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:12:18.145 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.geno.cafe.CafeApplication for test class com.geno.cafe.CafeApplicationTests
+16:12:18.180 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.geno.cafe.CafeApplicationTests]: CafeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:12:18.181 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.geno.cafe.CafeApplication for test class com.geno.cafe.CafeApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-07T16:12:18.332-04:00  INFO 4618 --- [cafe] [    Test worker] com.geno.cafe.CafeApplicationTests       : Starting CafeApplicationTests using Java 21.0.12.1 with PID 4618 (started by geno in /Users/geno/Desktop/CafeRAGSearchAI)
+2026-10-07T16:12:18.333-04:00  INFO 4618 --- [cafe] [    Test worker] com.geno.cafe.CafeApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2026-10-07T16:12:18.615-04:00  INFO 4618 --- [cafe] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-07T16:12:18.641-04:00  INFO 4618 --- [cafe] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2026-10-07T16:12:18.840-04:00  INFO 4618 --- [cafe] [    Test worker] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-07T16:12:18.874-04:00  INFO 4618 --- [cafe] [    Test worker] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-07T16:12:19.176-04:00  INFO 4618 --- [cafe] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-07T16:12:19.198-04:00  INFO 4618 --- [cafe] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-07T16:12:19.324-04:00  INFO 4618 --- [cafe] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45b08b17
+2026-10-07T16:12:19.325-04:00  INFO 4618 --- [cafe] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-07T16:12:19.372-04:00  INFO 4618 --- [cafe] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/cafe]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.11
+	Default catalog/schema: cafe/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-07T16:12:19.786-04:00  INFO 4618 --- [cafe] [    Test worker] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-07T16:12:19.820-04:00  INFO 4618 --- [cafe] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-07T16:12:19.865-04:00  WARN 4618 --- [cafe] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-07T16:12:20.068-04:00  INFO 4618 --- [cafe] [    Test worker] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-07T16:12:20.170-04:00  INFO 4618 --- [cafe] [    Test worker] com.geno.cafe.CafeApplicationTests       : Started CafeApplicationTests in 1.943 seconds (process running for 2.578)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/geno/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.18.11/82212e5b3633e7a65fca8bec525762cfb6c9bae4/byte-buddy-agent-1.18.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
